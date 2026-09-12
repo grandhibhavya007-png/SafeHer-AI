@@ -1,0 +1,11 @@
+{
+  "name": "SafeHer AI",
+  "description": "SafeHer AI is an intelligent incident reporting and women's safety platform with AI-powered complaint analysis, speech & call detail input, consensual location tracking, SQLite storage, and comprehensive Citizen & Admin Dashboards in a sleek dark theme.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

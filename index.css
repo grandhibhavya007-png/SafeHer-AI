@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+body {
+    background-color: #f8fcfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.resources-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.header-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-box h1 {
+    font-size: 28px;
+    color: #e4e8ef;
+    margin-bottom: 10px;
+}
+
+.header-box p {
+    font-size: 15px;
+    color: #ececed;
+}
+
+.card {
+    background: #ffffff;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    font-size: 12px;
+    color: #6366f1;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.card a {
+    text-decoration: none;
+    color: #4f46e5;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.footer-note {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+
+.footer-note h3 {
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.footer-note p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
